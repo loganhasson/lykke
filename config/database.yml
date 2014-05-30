@@ -3,7 +3,7 @@ default: &default
   encoding: utf8
   username: <%= ENV['DB_USERNAME'] %>
   password: <%= ENV['DB_PASSWORD'] %>
-  host: <%= ENV['DP_IP_ADDRESS'] %>
+  host: <%= ENV['DB_IP_ADDRESS'] %>
   port: 5432
   pool: 10
 
