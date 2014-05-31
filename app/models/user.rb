@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :summaries
+  
   devise :omniauthable, omniauth_providers: [:facebook]
 
   def self.find_for_facebook_oauth(auth)
