@@ -14,6 +14,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pg'
 gem 'figaro'
 gem 'capistrano', '~> 2.15.5'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :test, :development do
   gem "rspec-rails"
